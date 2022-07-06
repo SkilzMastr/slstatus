@@ -69,7 +69,10 @@ static const struct arg args[] = {
 	{ netspeed_rx, "%sB/s ", "wlp9s0f3u4"},
 	{ cpu_perc, "[CPU %s%%]   ", NULL },
 	{ ram_perc, "[RAM %s%%]   ", NULL },
+	{ disk_perc, "[HDD Usage %s%%]   ", "/home" },
 	{ run_command, "[Vol%4s%%]   ", "pamixer --get-volume" },
+	{ uptime, "[Up %s]   ", NULL },
+	{ battery_perc, "[Bat %s]   ", "BAT0" },
 	{ datetime, "%s",         "%a %b %d %r" }
 
 };
