@@ -72,7 +72,7 @@ static const struct arg args[] = {
 	{ disk_perc, "[HDD Usage %s%%]   ", "/home" },
 	{ run_command, "[Vol%4s%%]   ", "pamixer --get-volume" },
 	{ uptime, "[Up %s]   ", NULL },
-	{ battery_perc, "[Bat %s]   ", "BAT0" },
+	{ battery_perc, "[Bat %s%%]   ", "BAT0" },
 	{ datetime, "%s",         "%a %b %d %r" }
 
 };
